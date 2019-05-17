@@ -1,0 +1,45 @@
+inicio
+Servicios
+Departamento-> Cambiar nombre-> retiros
+Eventos->Calendario
+
+galeria
+nosotros
+contacto
+
+
+
+
+resumen servicios con imagen: boda, bautismo...
+nuestra historia--fondo (vitral, cruz, etc)
+
+departamentos----cambiar ordenes y estilo titulo
+
+
+COLOR ROJO X
+
+
+
+<?php 
+function menu(opcion){
+$i="";$c="";
+if(opcion==1){
+$i="active"
+}else if(opcion==2){
+$c="active";
+}
+
+return "<nav><ul>
+<li class="$i"><a>inicio</a></li>
+
+<li class="$c"><a>contacto</a></li>
+
+<li class="$ie"><a>etc</a></li>
+</nav>"
+
+}
+?>
+
+
+
+<?php echo menu(1)?>
